@@ -1,4 +1,4 @@
-# iScience V3 - Chessboard Tracking Experiments
+# iScience-soft tissue Tracking Experiments
 
 This repository contains the final, reproducible implementation and results for the chessboard-based tracking evaluation in the iScience manuscript.
 
