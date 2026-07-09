@@ -1,0 +1,9 @@
+# Minimal dependencies to reproduce Table 6 metrics from the bundled result CSVs
+numpy>=1.21
+scipy>=1.7
+
+# Additional dependencies to run the tracker end-to-end from raw video
+# (models/dataset provided separately; see README):
+#   opencv-python>=4.8      # cv2.TrackerNano (NanoTrack), image I/O
+#   torch>=1.13             # ContourSimilarityNet inference
+#   onnx / onnxruntime      # NanoTrack ONNX backbone/head (if used)
